@@ -1,0 +1,106 @@
+ 
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f5eb;
+            overflow-x: hidden;
+            
+        }
+       
+        header {
+            background-color: #dce3ea;
+            margin-top: -30px;
+            margin-left: -30px;
+            margin-right: -30px;
+            margin-bottom: 30px;
+            color: #1a1a1a;
+            padding: 30px 0;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .month-section {
+            background-color: #fff;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .product-entry {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+        .product-entry input {
+            padding: 5px;
+            width: 150px;
+        }
+        .product-controls {
+            margin-bottom: 10px;
+        }
+        button {
+            padding: 5px 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+       .btn1st {
+           background-color: #5b85b3; 
+           color: white; 
+        }
+        .btn1st:hover {
+            background-color: #e5e5e5;
+            color: black;
+        }
+        .add-btn {
+            background-color: #28a745;
+            color: white;
+        }
+        .add-btn:hover {
+            background-color: #024512;
+        }
+        .remove-btn { 
+            background-color: #dc3545; 
+            color: white;
+        }
+        .remove-btn:hover {
+            background-color: #4c050c;
+        }
+        .submit-btn { 
+            background-color: #007bff; 
+            color: white;
+            margin-top: 10px; 
+        }
+        .submit-btn:hover {
+            background-color:#033061 ;
+        }
+        .submit-all-btn {  
+            background-color: #5b85b3; 
+            color: white; 
+            margin-top: 20px; 
+            display: block; 
+        }
+        .submit-all-btn:hover {
+            background-color: #4c759e;
+        }
+        .totals {
+            margin-top: 10px;
+        }
+        .budget-section {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #e6e1d3;
+            color: #444;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: -30px;
+            margin-left: -30px;
+            margin-right: -30px;
+            margin-top: 315px;
+        }
